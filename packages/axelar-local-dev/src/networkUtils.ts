@@ -172,6 +172,13 @@ export async function getAllNetworks(url: string) {
 }
 
 /**
+ * @returns {ethers.providers.JsonRpcProvider}
+ */
+export async function getProvider(info: any) {
+    return new ethers.providers.JsonRpcProvider(info)
+}
+
+    /**
  * @returns {Network}
  */
 export async function setupNetwork(urlOrProvider: string | providers.Provider, options: NetworkSetup) {

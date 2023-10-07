@@ -38,7 +38,7 @@
         "@axelar-network/axelar-gmp-sdk-solidity": "^5.3.0",
         "ethers": "^5.6.5",
         "fs-extra": "^10.1.0",
-        "ganache": "^7.1.0",
+        "ganache": "^7.9.0",
         "lodash": "^4.17.21"
     },
     "devDependencies": {

@@ -12,6 +12,7 @@ import {
     getNetwork,
     listen,
     setupNetwork,
+    getProvider,
     stop,
     stopAll,
 } from './networkUtils';
@@ -34,6 +35,7 @@ export {
     getNetwork,
     getAllNetworks,
     setupNetwork,
+    getProvider,
     stop,
     stopAll,
     getDepositAddress,
